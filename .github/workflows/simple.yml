@@ -1,0 +1,9 @@
+name:  shell commands
+on:  [push]
+jobs:  
+  rub-shell-commnds:
+    runs-on:  ubuntu-latest
+    steps: 
+      - name:  eacho a string
+        run:  echo "This is for tesst Githib actions"
+    
